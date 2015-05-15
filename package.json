@@ -1,22 +1,32 @@
 {
   "name": "coffee-formatter-cli",
-  "version": "1.0.0",
-  "description": "A command line formatter for CoffeeScript ",
+  "version": "0.0.1",
+  "description": "A command line CoffeeScript formatter ",
   "main": "index.js",
+  "license": "MIT",
+  "author": "zerob13",
+  "repository": "zerob13/coffee-formatter-cli",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "preferGlobal": true,
   "bin": {
-    "coffee-format": "./index.js",
-  }
+    "coffeeformat": "./index.js"
+  },
+  "engines": {
+    "node": ">=0.11.0",
+    "npm": ">=2.7.0"
+  },
   "keywords": [
     "coffeescript",
+    "coffee",
+    "tool",
     "formatter"
   ],
-  "author": "zerob13",
-  "license": "MIT",
   "dependencies": {
     "coffee-formatter": "^0.1.2",
+    "commander": "^2.8.1",
+    "lazy": "~1.0.11",
+    "optimist": "~0.5.0"
   }
 }
