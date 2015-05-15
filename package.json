@@ -13,6 +13,7 @@
   "author": "zerob13",
   "license": "MIT",
   "dependencies": {
-    "coffee-formatter": "^0.1.2"
+    "coffee-formatter": "^0.1.2",
+    "commander": "^2.8.1"
   }
 }
