@@ -10,8 +10,8 @@ program
   .arguments('<file>')
   .action(function(file) {
     file = file;
-
   });
+
 program.parse(process.argv);
 var data = '';
 var CF = require('./formatter');
