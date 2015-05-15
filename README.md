@@ -1,5 +1,5 @@
-# coffee-formatter-cli
-=======================    
+# Coffee Formatter Cli
+---
 > A command line formatter for CoffeeScript
 
 [![NPM version](https://img.shields.io/npm/v/coffee-formatter-cli.svg?style=flat)](https://www.npmjs.com/package/coffee-formatter-cli)
