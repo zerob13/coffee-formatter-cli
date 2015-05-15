@@ -1,15 +1,15 @@
 {
   "name": "coffee-formatter-cli",
-  "version": "0.0.2",
-  "description": "A command line CoffeeScript formatter ",
+  "version": "0.0.3",
+  "description": "A command line CoffeeScript formatter",
   "main": "index.js",
   "license": "MIT",
   "author": "zerob13",
   "repository": "zerob13/coffee-formatter-cli",
+  "preferGlobal": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "preferGlobal": true,
   "bin": {
     "coffeeformat": "./index.js"
   },
