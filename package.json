@@ -6,6 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "preferGlobal": true,
+  "bin": {
+    "coffee-format": "./index.js",
+  }
   "keywords": [
     "coffeescript",
     "formatter"
@@ -14,6 +18,5 @@
   "license": "MIT",
   "dependencies": {
     "coffee-formatter": "^0.1.2",
-    "commander": "^2.8.1"
   }
 }
